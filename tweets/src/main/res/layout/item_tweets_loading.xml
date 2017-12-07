@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/dp_38"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/load_failed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/tweets_load_failed_tip"
+        android:textColor="@color/color_light_gray"
+        android:textSize="@dimen/tweets_load_failed_tip_size"
+        android:layout_marginBottom="@dimen/dp_4"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/loading_more"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <ProgressBar
+            android:layout_width="@dimen/tweets_loading_progress_size"
+            android:layout_height="@dimen/tweets_loading_progress_size"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:text="@string/tweets_loading_tip"
+            android:textColor="@color/color_dark_gray"
+            android:textSize="@dimen/tweets_loading_tip_text_size"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/load_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/tweets_load_empty_border_margin"
+        android:layout_marginRight="@dimen/tweets_load_empty_border_margin"
+        android:paddingTop="@dimen/dp_20"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="@dimen/tweets_load_empty_divider_height"
+            android:layout_weight="1"
+            android:background="@color/color_light_gray"/>
+
+        <View
+            android:layout_width="@dimen/dp_3"
+            android:layout_height="@dimen/dp_3"
+            android:layout_marginLeft="@dimen/dp_4"
+            android:layout_marginRight="@dimen/dp_4"
+            android:background="@drawable/shape_tweets_empty_circle"/>
+
+        <View
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="@dimen/tweets_load_empty_divider_height"
+            android:layout_weight="1"
+            android:background="@color/color_light_gray"/>
+
+    </LinearLayout>
+
+</LinearLayout>

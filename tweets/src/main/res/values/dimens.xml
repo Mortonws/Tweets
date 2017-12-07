@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dp_0">0dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_3">3dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_18">18dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_36">36dp</dimen>
+    <dimen name="dp_38">38dp</dimen>
+    <dimen name="dp_70">70dp</dimen>
+    <dimen name="dp_72">72dp</dimen>
+
+    <!--tweets load-->
+    <dimen name="tweets_loading_progress_size">16dp</dimen>
+    <dimen name="tweets_load_empty_divider_height">0.5dp</dimen>
+    <dimen name="tweets_load_empty_border_margin">50dp</dimen>
+    <dimen name="tweets_load_empty_top_margin">20dp</dimen>
+
+    <dimen name="tweets_profile_height">280dp</dimen>
+    <dimen name="tweets_header_item_height">320dp</dimen>
+    <dimen name="tweets_avatar_size">88dp</dimen>
+    <dimen name="tweets_sender_avatar_size">38dp</dimen>
+    <dimen name="tweets_content_margin_top">2dp</dimen>
+    <dimen name="tweets_image_margin_top">4dp</dimen>
+    <dimen name="tweets_img_space_margin">4dp</dimen>
+    <dimen name="tweets_img_margin_right">60dp</dimen>
+
+    <dimen name="tweets_comments_vertical_padding">3dp</dimen>
+    <dimen name="tweets_comments_left_padding">4dp</dimen>
+    <dimen name="tweets_comments_margin_top">4dp</dimen>
+
+    <dimen name="avatar_padding">2dp</dimen>
+
+    <dimen name="tweets_loading_tip_text_size">13sp</dimen>
+    <dimen name="tweets_load_failed_tip_size">12sp</dimen>
+
+    <dimen name="default_text_size">18sp</dimen>
+    <dimen name="tweets_sender_name_size">14sp</dimen>
+    <dimen name="tweets_content_size">14sp</dimen>
+    <dimen name="tweets_comments_sender_name_size">13sp</dimen>
+    <dimen name="tweets_comments_size">13sp</dimen>
+</resources>

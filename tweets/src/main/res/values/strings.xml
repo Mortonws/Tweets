@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TW Tweets</string>
+
+    <string name="tweets_load_failed_tip">加载失败，点击重新加载</string>
+    <string name="tweets_loading_tip">正在加载 …</string>
+    <string name="tweets_default_tip">请升级到最新应用查看该条内容</string>
+</resources>

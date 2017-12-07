@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/shape_tweets"
+              android:orientation="horizontal"
+              android:paddingBottom="@dimen/dp_12"
+              android:paddingTop="@dimen/dp_12">
+
+    <ImageView
+        android:id="@+id/sender_avatar"
+        android:layout_width="@dimen/tweets_sender_avatar_size"
+        android:layout_height="@dimen/tweets_sender_avatar_size"
+        android:layout_marginLeft="@dimen/dp_12"
+        android:src="@mipmap/default_avatar"/>
+
+    <LinearLayout
+        android:id="@+id/tweets_detail_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_12"
+        android:layout_marginRight="@dimen/dp_12"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sender_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_tweets_sender_name"
+            android:textSize="@dimen/tweets_sender_name_size"/>
+
+        <TextView
+            android:id="@+id/contents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tweets_content_margin_top"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tweets_content_size"/>
+
+        <include layout="@layout/layout_tweets_comments" />
+    </LinearLayout>
+
+</LinearLayout>

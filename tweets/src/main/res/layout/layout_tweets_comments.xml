@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tweets_comments_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/tweets_comments_margin_top"
+    android:background="@drawable/shape_comments_bg"
+    android:paddingBottom="@dimen/tweets_comments_vertical_padding"
+    android:paddingTop="@dimen/tweets_comments_vertical_padding"
+    android:visibility="gone"/>

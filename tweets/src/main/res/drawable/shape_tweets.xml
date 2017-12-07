@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="1px"
+                android:color="@color/color_tweets_bottom_diver"/>
+            <solid android:color="@color/color_tweets_bg"/>
+        </shape>
+    </item>
+
+    <item android:bottom="1px">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/color_tweets_bg"/>
+        </shape>
+    </item>
+
+</layer-list>

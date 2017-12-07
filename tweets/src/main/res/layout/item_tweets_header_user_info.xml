@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:background="@color/color_tweets_bg"
+                android:layout_height="@dimen/tweets_header_item_height">
+
+    <ImageView
+        android:id="@+id/img_profile"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tweets_profile_height"
+        android:scaleType="centerCrop"
+        android:background="@color/color_dark_gray"/>
+
+    <ImageView
+        android:id="@+id/img_avatar"
+        android:layout_width="@dimen/tweets_avatar_size"
+        android:layout_height="@dimen/tweets_avatar_size"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/shape_avatar_bg"
+        android:padding="@dimen/avatar_padding"
+        android:src="@color/color_light_gray"/>
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img_profile"
+        android:layout_toLeftOf="@+id/img_avatar"
+        android:padding="@dimen/dp_12"
+        android:textColor="@color/white"
+        android:textSize="@dimen/default_text_size"/>
+
+</RelativeLayout>

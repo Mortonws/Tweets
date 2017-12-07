@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="black">@android:color/black</color>
+    <color name="white">@android:color/white</color>
+
+    <color name="colorPrimaryDark">#242528</color>
+
+    <color name="color_tweets_sender_name">#0062ff</color>
+
+    <color name="color_dark_gray">#333333</color>
+    <color name="color_light_gray">#c3c3c3</color>
+
+    <color name="color_tweets_bottom_diver">#CACACA</color>
+    <color name="color_tweets_bg">#f6f6f6</color>
+    <color name="color_tweets_comments_bg">#f0f0f0</color>
+</resources>
